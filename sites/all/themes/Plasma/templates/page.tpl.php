@@ -66,6 +66,7 @@
 ?>
 <div id="header-top" class="clearfix">
 <div id="logo"><!--start logo-->
+<img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
 <div id="site-name"><?php if ($site_name): ?><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><h1><?php print $site_name; ?></h1></a><?php endif; ?></div>
 <div id="site-slogan"><?php if ($site_slogan): ?><?php print $site_slogan; ?><?php endif; ?></div><!--site slogan-->
 </div><!--end logo-->
